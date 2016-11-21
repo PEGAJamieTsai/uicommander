@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:layout_margin="4.0dip"
+    android:background="@drawable/control_bar_background"
+    android:orientation="horizontal"
+    android:paddingBottom="2.0dip"
+    android:paddingLeft="2.0dip"
+    android:paddingRight="2.0dip"
+    android:paddingTop="2.0dip">
+
+    <View
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0" />
+
+    <ImageView
+        android:id="@+id/button_controller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="2.0dip"
+        android:src="@mipmap/button_controller" />
+
+    <ImageView
+        android:id="@+id/button_add_wall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="2.0dip"
+        android:src="@mipmap/button_map_edit" />
+
+    <ImageView
+        android:id="@+id/button_clear_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="2.0dip"
+        android:src="@mipmap/button_clear_map" />
+
+    <ImageView
+        android:id="@+id/button_clear_track"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="2.0dip"
+        android:src="@mipmap/button_clear_track" />
+
+    <ImageView
+        android:id="@+id/button_sweep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="2.0dip"
+        android:src="@mipmap/button_sweep" />
+
+    <ImageView
+        android:id="@+id/button_sweep_spot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="2.0dip"
+        android:src="@mipmap/button_sweep_spot" />
+
+    <ImageView
+        android:id="@+id/button_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="2.0dip"
+        android:src="@mipmap/button_home" />
+
+    <ImageView
+        android:id="@+id/button_quit_to_connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="2.0dip"
+        android:src="@mipmap/button_quit_to_connect" />
+</LinearLayout>

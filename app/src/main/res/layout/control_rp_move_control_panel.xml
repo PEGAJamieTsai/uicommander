@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/move_control_panel_background">
+
+    <ImageView
+        android:id="@+id/button_hide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4.0dip"
+        android:src="@mipmap/button_exit_wall_edit" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4.0dip"
+        android:layout_toRightOf="@id/button_hide">
+
+        <ImageView
+            android:id="@+id/button_move_forward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4.0dip"
+            android:layout_marginRight="4.0dip"
+            android:src="@mipmap/button_move_forward" />
+
+        <ImageView
+            android:id="@+id/button_move_backward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/button_move_forward"
+            android:layout_toRightOf="@id/button_move_forward"
+            android:src="@mipmap/button_move_backward" />
+
+        <ImageView
+            android:id="@+id/button_turn_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_move_forward"
+            android:layout_marginRight="4.0dip"
+            android:src="@mipmap/button_turn_left" />
+
+        <ImageView
+            android:id="@+id/button_turn_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/button_turn_left"
+            android:layout_toRightOf="@id/button_turn_left"
+            android:src="@mipmap/button_turn_right" />
+    </RelativeLayout>
+</RelativeLayout>

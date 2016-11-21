@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="280.0dip"
+    android:orientation="vertical"
+    android:padding="10.0dip">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center_vertical"
+        android:text="IP ADDRESS"
+        android:textColor="@color/Black"
+        android:textSize="20.0sp"
+        android:textStyle="bold" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input_ip_address"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="IP ADDRESS" />
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <com.slamtec.android.uicommander.views.controls.RPMapView
+        android:id="@+id/map_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <com.slamtec.android.uicommander.views.controls.RPControlBar
+        android:id="@+id/control_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <RelativeLayout
+        android:id="@+id/layout_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/light_blue"
+        android:padding="2.0dip">
+
+        <TextView
+            android:id="@+id/text_sdp_version_title"
+            style="@style/StatusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sdp_version" />
+
+        <TextView
+            android:id="@+id/text_sdp_version_content"
+            style="@style/StatusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/text_sdp_version_title" />
+
+        <TextView
+            android:id="@+id/text_battery_percentage_title"
+            style="@style/StatusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_sdp_version_title"
+            android:text="@string/battery_percentage" />
+
+        <TextView
+            android:id="@+id/text_battery_percentage_content"
+            style="@style/StatusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/text_battery_percentage_title"
+            android:layout_toRightOf="@id/text_battery_percentage_title" />
+
+        <TextView
+            android:id="@+id/text_connection_status_title"
+            style="@style/StatusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_battery_percentage_title"
+            android:text="@string/connection_status" />
+
+        <TextView
+            android:id="@+id/text_connection_status_content"
+            style="@style/StatusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/text_connection_status_title"
+            android:layout_toRightOf="@id/text_connection_status_title" />
+
+        <TextView
+            android:id="@+id/text_localization_quality_title"
+            style="@style/StatusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_connection_status_title"
+            android:text="Localization quality:" />
+
+        <TextView
+            android:id="@+id/text_localization_quality"
+            style="@style/StatusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/text_localization_quality_title"
+            android:layout_toRightOf="@id/text_localization_quality_title" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/text_status"
+        style="@style/StatusText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/layout_status"
+        android:background="@color/light_blue"
+        android:gravity="right"
+        android:padding="2.0dip" />
+
+    <ImageView
+        android:id="@+id/button_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="#99ffffff"
+        android:padding="4.0dip"
+        android:src="@mipmap/button_cancel_action" />
+</RelativeLayout>

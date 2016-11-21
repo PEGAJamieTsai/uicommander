@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/auto_discovery_background">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4.0dip"
+        android:layout_marginTop="4.0dip"
+        android:textColor="@color/Black"
+        android:textSize="24.0sp" />
+
+    <TextView
+        android:id="@+id/model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginBottom="4.0dip"
+        android:layout_marginLeft="4.0dip"
+        android:textColor="@color/Black"
+        android:textSize="16.0sp" />
+
+    <TextView
+        android:id="@+id/state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="4.0dip"
+        android:layout_marginTop="4.0dip"
+        android:text="Waiting to connect"
+        android:textColor="@color/Black"
+        android:textSize="12.0sp" />
+</RelativeLayout>

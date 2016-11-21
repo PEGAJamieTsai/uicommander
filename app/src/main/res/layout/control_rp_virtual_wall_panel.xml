@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/virtual_panel_background"
+    android:orientation="horizontal"
+    android:paddingBottom="4.0dip"
+    android:paddingTop="4.0dip">
+
+    <ImageView
+        android:id="@+id/button_exit_wall_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="2.0dip"
+        android:layout_marginRight="4.0dip"
+        android:src="@mipmap/button_exit_wall_edit" />
+
+    <ImageView
+        android:id="@id/button_add_wall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="4.0dip"
+        android:layout_marginRight="4.0dip"
+        android:src="@mipmap/button_add_wall" />
+
+    <ImageView
+        android:id="@+id/button_remove_wall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="4.0dip"
+        android:layout_marginRight="4.0dip"
+        android:src="@mipmap/button_remove_wall" />
+
+    <ImageView
+        android:id="@+id/button_clear_walls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="4.0dip"
+        android:layout_marginRight="4.0dip"
+        android:src="@mipmap/button_clear_walls" />
+</LinearLayout>

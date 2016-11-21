@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_manul_connect"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="30.0dip"
+        android:layout_gravity="right"
+        android:text="Connect by ip address"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="9.0sp" />
+
+    <ImageView
+        android:layout_width="180.0dip"
+        android:layout_height="180.0dip"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/splash_icon" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+
+        <ListView
+            android:id="@+id/list_devices"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:text="@string/copyright"
+        android:textColor="@color/Black"
+        android:textSize="@dimen/text_small" />
+</LinearLayout>

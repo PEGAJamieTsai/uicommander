@@ -1,0 +1,31 @@
+<resources>
+    <string name="add_wall">add wall</string>
+    <string name="app_name">UICommander_ARobot</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="back_button">Back</string>
+    <string name="battery_percentage">Battery:</string>
+    <string name="ble_not_supported">This app require BLE support.</string>
+    <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="clear_walls">clear walls</string>
+    <string name="connect">Connect</string>
+    <string name="connected_failed_message">Failed to connect to Slamware SDP, Please check the IP Address and your Wifi Connection</string>
+    <string name="connecting">Connecting………</string>
+    <string name="connection_status">Connection:</string>
+    <string name="copyright">Copyright © 2015 Shanghai Slamtec Co., Ltd</string>
+    <string name="disconnected_message">Failed to reconnect to the Slamware SDP.</string>
+    <string name="disconnected_title">Reconnection Failed</string>
+    <string name="edit_wall">edit wall</string>
+    <string name="error">error</string>
+    <string name="exit_editing">exit editing</string>
+    <string name="invalid_ip_address">Invalid IP Address</string>
+    <string name="ok">OK</string>
+    <string name="reconnect_button">Retry</string>
+    <string name="remove_wall">remove wall</string>
+    <string name="robot_status" formatted="false">SDP Version: %s | Battery: %d%% %s</string>
+    <string name="sdp_version">SDP Version:</string>
+    <string name="smart_config_error">Error. Wrong ssid or password.</string>
+    <string name="smart_config_success">Configure successfully.</string>
+    <string name="sweep_spot">Spot Clean</string>
+</resources>
